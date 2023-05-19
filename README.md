@@ -1,22 +1,12 @@
 # Haskell
+Tags: Haskell, Programming, Programming Language
 
-Sources: http://learnyouahaskell.com/chapters Tags: Haskell,
-Programming, Programming Language
+Sources: http://learnyouahaskell.com/chapters 
 
-<aside>
-
-<img src="https://www.notion.so/icons/bookmark_blue.svg" alt="https://www.notion.so/icons/bookmark_blue.svg" width="40px" />
-**Table of Contents**
-
-</aside>
 
 # Installation
 
-<aside>
-
-<img src="https://www.notion.so/icons/download_red.svg" alt="https://www.notion.so/icons/download_red.svg" width="40px" />
 Haskell Installation:
-
 [Downloads](https://www.haskell.org/downloads)
 
 what do I need?:
@@ -24,19 +14,10 @@ what do I need?:
 - Stack
 - ghc
 - VS Code
-
-</aside>
-
 # Online Haskell
 
-<aside>
-
-<img src="https://www.notion.so/icons/wifi_lightgray.svg" alt="https://www.notion.so/icons/wifi_lightgray.svg" width="40px" />
 If online interpreter is needed:
-
 [Haskell Playground](https://play.haskell.org/)
-
-</aside>
 
 # How to list
 
@@ -93,9 +74,8 @@ ghci> [1,3 .. 10]
 
 <figure>
 <img
-src="https://file.notion.so/f/s/7887a8d5-28b8-4d65-b320-f693aeb3a667/fehler.png?id=d4d9bfc6-eb8a-49a0-b88e-268df8aaec22&amp;table=block&amp;spaceId=c0fc31c3-9cea-48a3-beae-1aba7eb8a227&amp;expirationTimestamp=1684583420079&amp;signature=HtO5So9GV6QtCNPkxHFJNy75aa7bQIaj6zPdCQjCyCs&amp;downloadName=fehler.png"
+src="./pictures/fehler.png"
 alt="fehler.png" />
-<figcaption aria-hidden="true">fehler.png</figcaption>
 </figure>
 
 # Math Equation examples
@@ -268,9 +248,9 @@ To specify a specific interface in a generic function:
 
 <figure>
 <img
-src="https://file.notion.so/f/s/76c0c453-2b74-4b3e-9313-6d06c78138bc/type_constraints.png?id=5c7e7c8c-cea4-411d-9f30-504ffe715ddb&amp;table=block&amp;spaceId=c0fc31c3-9cea-48a3-beae-1aba7eb8a227&amp;expirationTimestamp=1684583452663&amp;signature=hTtC43U6UIsXz9g_9_vEYEBDcy0RY_kg2VOj1iwg9wc&amp;downloadName=type_constraints.png"
+src="./pictures/type_constraints.png"
 alt="type_constraints.png" />
-<figcaption aria-hidden="true">type_constraints.png</figcaption>
+<figcaption aria-hidden="true">Type Constraints</figcaption>
 </figure>
 
 ## maxBound
@@ -402,9 +382,9 @@ ghci> mymaximum [2,5,3,6,7,1]
 
 <figure>
 <img
-src="https://file.notion.so/f/s/54f946ae-e9b2-4e39-87d6-3d23aa525804/zip.png?id=a88a6e67-4949-4a0b-8847-9590bdf11967&amp;table=block&amp;spaceId=c0fc31c3-9cea-48a3-beae-1aba7eb8a227&amp;expirationTimestamp=1684583479441&amp;signature=8-vBl9kDdSK7SDGIrCX6pKMCL9HAMYac-1cZTivq4q8&amp;downloadName=zip.png"
+src="./pictures/zip.png"
 alt="zip.png" />
-<figcaption aria-hidden="true">zip.png</figcaption>
+<figcaption aria-hidden="true">How Zip works</figcaption>
 </figure>
 
 ``` haskell
@@ -436,16 +416,11 @@ ghci> map ($ 1) [1,2,3]
 [2,3,4]
 ```
 
-<aside>
-
-<img src="https://www.notion.so/icons/snippet_green.svg" alt="https://www.notion.so/icons/snippet_green.svg" width="40px" />
-\$ ermöglicht bessere Übersicht bei verketteten Abfragen
+$ ermöglicht bessere Übersicht bei verketteten Abfragen
 
 $$
 succ(succ(abs(-3))) == succ\$succ\$abs(-3)
 $$
-
-</aside>
 
 ``` haskell
 ghci> sum (filter (>10) (map (*2) [2..10]))
@@ -467,9 +442,9 @@ $$
 
 <figure>
 <img
-src="https://file.notion.so/f/s/6071a868-00f7-418a-8626-1f2583393f1b/function_composition.png?id=d6a81334-c50a-4c6a-b525-38f399b178bb&amp;table=block&amp;spaceId=c0fc31c3-9cea-48a3-beae-1aba7eb8a227&amp;expirationTimestamp=1684583500917&amp;signature=BZ0CDb5S3MBYHyzchxpBROvxDix97gLr70gVJZ3Prmc&amp;downloadName=function_composition.png"
+src="./pictures/function_composition.png"
 alt="function_composition.png" />
-<figcaption aria-hidden="true">function_composition.png</figcaption>
+<figcaption aria-hidden="true">Function Composition</figcaption>
 </figure>
 
 ``` haskell
@@ -529,9 +504,9 @@ myelem x xs = foldl (\acc x -> if ((x==y) || acc) then True else False) False xs
 
 <figure>
 <img
-src="https://file.notion.so/f/s/9327ac9c-f339-47a2-9478-3493072aa371/cesar_cipher.png?id=534ac96c-0209-44aa-ad3b-c2c596c38756&amp;table=block&amp;spaceId=c0fc31c3-9cea-48a3-beae-1aba7eb8a227&amp;expirationTimestamp=1684583521603&amp;signature=p1ik8R6R3peR59UvpbH5Jl3199ztc3wa2QkQgcN8OXY&amp;downloadName=cesar_cipher.png"
+src="./pictures/cesar_cipher.png"
 alt="cesar_cipher.png" />
-<figcaption aria-hidden="true">cesar_cipher.png</figcaption>
+<figcaption aria-hidden="true">Cesar Cipher Example</figcaption>
 </figure>
 
 ``` haskell
